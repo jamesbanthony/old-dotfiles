@@ -21,5 +21,6 @@ BackgroundDarkness=1.000000
 ColorCursor=#545458585555
 ColorForeground=#545458585555
 ColorBackground=#f0f0f4f4f5f5
-ColorPalette=#3c3c3e3e3c3c;#acac4c4c6464;#5a5acccc7777;#acac8b8b4c4c;#5a5a7777cccc;#a1a14c4cacac;#5a5ab3b3cccc;#efeff3f3f0f0;#545458585555;#acac4c4c6464;#4c4cacac6464;#abab89894b4b;#4c4c6464acac;#a0a04b4babab;#4b4b9696abab;#f2f2f6f6f3f3
+ColorPalette=#3c3c3e3e3c3c;#acac4c4c6464;#5a5acccc7777;#acac8b8b4c4c;#5a5a7777cccc;#a1a14c4cacac;#5a5ab3b3cccc;#3c3c3e3e3c3c;#545458585555;#acac4c4c6464;#4c4cacac6464;#abab89894b4b;#4c4c6464acac;#a0a04b4babab;#4b4b9696abab;#545458585555
+
 
