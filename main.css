@@ -1,0 +1,87 @@
+html, body, h1, ul, li, p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  //background: #f5eeeb;
+  background: #f5f6f7;
+  height: 100vh;
+  width: 100vw; }
+
+main {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+@media only screen and (max-height: 600px) {
+main {
+  left: 40%;
+  transform: translate(-40%, -60%); } }
+h1 {
+  color: #254e70;
+  font-family: "Gotham Rounded Medium";
+  font-size: 3em; }
+
+p {
+  color: #393d3f;
+  font-family: "Gotham Rounded Light";
+  font-size: 1em; }
+
+code {
+  font-family: "Inconsolata";
+  font-size: 1em; }
+
+ul {
+  display: block;
+  margin: 0 auto; }
+
+li {
+  display: inline-block;
+  font-family: "Gotham Rounded Bold";
+  font-size: 1em;
+  line-height: 1.5;
+  list-style: none;
+  margin: 0 5px; }
+
+.subh {
+  color: #c33c54;
+  font-weight: bold;
+  margin-top: 5px;
+  text-decoration: none;
+  transition: .2s; }
+
+.subh:hover {
+  color: #cb6077; }
+
+a {
+  color: #008080;
+  text-decoration: none;
+  transition: .2s; }
+
+a:hover {
+  color: #7bbda4; }
+
+.subh a {
+  color: #cb6077; }
+
+.subh a:hover {
+  color: #cb6077; }
+
+.searchfield {
+  background: #f5f6f7;
+  color: #254e70;
+  border: solid;
+  display: block;
+  font-family: "Gotham Rounded";
+  font-size: .9em;
+  height: 25px;
+  margin: 10px auto;
+  padding: 5px 0 5px 10px;
+  transition: .2s;
+  width: 300px;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
+

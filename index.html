@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <main>
+      <h1> home </h1>
+      <p>
+        <li class="subh"> main </li>
+        <li><a href="https://facebook.com">facebook</a></li>
+        <li><a href="https://messneger.com">messenger</a></li>
+        <li><a href="https://reddit.com">reddit</a></li>
+        <li><a href="https://youtube.com">youtube</a></li>
+        <li><a href="https://mail.google.com/">gmail</a></li>
+      </p>
+      <p>
+        <li class="subh"> school </li>
+        <li><a href="https://studentmail.mcmaster.ca/">anthonjb</a></li>
+        <li><a href="http://avenue.mcmaster.ca/">avenue</a></li>
+        <li><a href="https://epprd.mcmaster.ca/psp/prepprd">mosaic</a></li>
+      </p>
+      <p>
+        <li class="subh"> code </li>
+        <li><a href="https://github.com">github</a></li>
+        <li><a href="http://learnyouahaskell.com/chapters">haskell</a></li>
+        <li><a href="https://coolors.co/app">coolors</a></li>
+      </p>
+      <p>
+        <li class="subh"> media </li>
+        <li><a href="https://kickass.unblocked.red/">kat</a></li>
+        <li><a href="http://putlocker.is/watch-seinfeld-tvshow-online-free-putlocker.html">seinfeld</a></li>
+        <li><a href="https://kissanime.to/Anime/Dragon-Ball-Z">dbz</a></li>
+      </p>
+      <p>
+        <li class="subh"> forums </li>
+        <li><a href="http://smashboards.com/categories/super-smash-bros-melee.4/">smashboards</a></li>
+        <li><a href="https://www.reddit.com/r/Vaporwave/">r/vaporwave</a></li>
+        <li><a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></li>
+      </p>
+      <p>
+        <input type="text"  class="searchfield" autofocus placeholder="search" />
+      </p>
+    </main>
+    
+    <script>
+     document.getElementsByClassName('searchfield')[0].onkeypress = function (e) {
+         if (!e) e = window.event;
+         var keyCode = e.keyCode || e.which;
+         if (keyCode == '13') {
+             window.location.href = "https://google.com/search?q=" + document.getElementsByClassName('searchfield')[0].value;
+         }
+     };
+    </script>
+    
+  </body>
+</html>
+      
