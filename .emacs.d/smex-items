@@ -1,0 +1,24 @@
+
+;; ----- smex-history -----
+(
+ web-mode
+ load-theme
+ term
+ neotree-mode
+ load-file
+ minimap-toggle
+ minimap-kill
+)
+
+;; ----- smex-data -----
+(
+ (load-file . 2)
+ (load-theme . 80)
+ (minimap-mode . 2)
+ (minimap-toggle . 3)
+ (minimap-create . 1)
+ (minimap-kill . 1)
+ (neotree-mode . 1)
+ (term . 1)
+ (web-mode . 29)
+)
